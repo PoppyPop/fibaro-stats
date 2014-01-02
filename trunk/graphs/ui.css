@@ -1,0 +1,22 @@
+body {
+	font: normal .8em/1.5em Lucida Grande,Lucida Sans,Arial,sans-serif;
+}
+
+.ui-menu {
+ 	width: 200px;
+ 	font-size: 12px;
+ 	min-height: 22px; /* définit la hauteur minimale du menu (dépendante de la valeur de font-size) */
+}
+ 
+#menuTemp {
+ 	// width: 90%; /* définit la largeur totale du menu */
+ 	margin: auto;
+	float: left;
+	// position: absolute;
+}
+ 
+ul#menuTemp>li {
+ 	width: 200px; /* définit la largeur des items de niveau 1 */
+ 	/*float: left;*/ /* définit le positionnement des items de niveau 1 */
+ 	text-align: center;
+}
